@@ -15,29 +15,18 @@
                     "objectId": "b41b72d0-4e9f-4c26-8a69-f949f367c91d",
                     "permissions": {
                         "keys": ["all"],
-                        "secrets": ["all"]
+                        "secrets": ["all"],
+                        "certificates":["all"]
                     }
                 },
-                {
-                    "tenantId": "b41b72d0-4e9f-4c26-8a69-f949f367c91d",
-                    "objectId": "b41b72d0-4e9f-4c26-8a69-f949f367c91d",
-                    "permissions": {
-                        "keys": ["all"],
-                        "secrets": ["all"]
-                    }
-                }
             ]
         },
         "secretsObject": {
             "value": {
                 "secrets": [						
                     {
-                        "secretName": "exampleSecret1",
-                        "secretValue": "secretVaule1"
-                    },
-                    {
-                        "secretName": "exampleSecret2",
-                        "secretValue": "secretValue2"
+                        "secretName": "kristianVmPassword",
+                        "secretValue": "Pa$$w0rd"
                     }
                 ]
             }

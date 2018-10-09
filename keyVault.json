@@ -22,11 +22,11 @@
       },
       "enabledForDeployment": {
         "type": "bool",
-        "defaultValue": false,
+        "defaultValue": true,
       },
       "enabledForTemplateDeployment": {
         "type": "bool",
-        "defaultValue": false,
+        "defaultValue": true,
       },
       "enableVaultForVolumeEncryption": {
         "type": "bool",
